@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <title>Game Ping</title>
+  </head>
+  <body>
+    <div class="main">
+      <button class="btn-create-game" id="btn-create-game">NEW GAME</button>
+      <section class="player-pos player-1 active" id="player-pos-1">
+        <img src="player-1.jpeg" class="player-image" />
+        <p class="result" id="player-1-result">5</p>
+        <div class="current-main">
+          <div>CURRENT</div>
+          <p id="player-1-current">0</p>
+        </div>
+      </section>
+      <img src="dice-1.png" class="dice-image" id="dice-image" />
+
+      <section class="player-pos player-2" id="player-pos-2">
+        <img src="player-2.jpeg" class="player-image" />
+        <p class="result" id="player-2-result">25</p>
+        <div class="current-main">
+          <div>CURRENT</div>
+          <p id="player-2-current">0</p>
+        </div>
+      </section>
+      <button class="btn-roll-dice" id="btn-roll-dice">ROLL DICE</button>
+      <button class="btn-hold" id="btn-hold">HOLD</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(209, 90, 86);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  width: 50%;
+  border-radius: 10px;
+  margin: auto;
+  border: 2px solid #fdfdfd;
+  margin-top: 5%;
+  position: relative;
+}
+.active {
+  display: block;
+  height: 800px;
+  width: 50%;
+  background-color: rgb(250, 202, 202);
+}
+
+.hidden {
+  display: none;
+}
+
+.player-pos {
+  height: 800px;
+  width: 50%;
+  border: 1px solid #fdfdfd;
+  text-align: center;
+  padding-top: 15%;
+}
+.dice-image {
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.player-image {
+  height: 20%;
+}
+.current-main {
+  color: white;
+  height: 11%;
+  width: 50%;
+  background-color: rgb(47, 47, 48);
+  margin: auto;
+  margin-top: 25%;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.result {
+  color: white;
+  padding-top: 25%;
+  font-size: 100px;
+}
+.btn-create-game {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 26px;
+  width: 100px;
+}
+.btn-roll-dice {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 26px;
+  width: 100px;
+}
+
+.btn-hold {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 26px;
+  width: 100px;
+}
+
+.player-winner {
+  display: block;
+  height: 800px;
+  width: 50%;
+  background-color: rgb(8, 2, 2);
+}
